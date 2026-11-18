@@ -1,0 +1,9 @@
+URL: https://automationpracticehubapp.netlify.app/basic-elements
+true
+Value is filled in input field  Loren
+Value is filled in input field  Walsh
+Value is filled in input field  Martine68@hotmail.com
+Value is filled in input field  hud4A49NvrpNYmA
+Value is filled in input field  Unbranded Granite Table
+clicking on button
+clicked on button

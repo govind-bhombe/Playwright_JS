@@ -1,0 +1,16 @@
+{
+  "name": "bwe_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0",
+    "allure-playwright": "^3.14.0"
+  }
+}

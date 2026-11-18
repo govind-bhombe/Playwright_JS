@@ -1,0 +1,9 @@
+URL: https://automationpracticehubapp.netlify.app/basic-elements
+true
+Value is filled in input field  Courtney
+Value is filled in input field  Beatty
+Value is filled in input field  Scotty_Kris62@hotmail.com
+Value is filled in input field  LW4rOus9ET1rM2u
+Value is filled in input field  Small Rubber Hat
+clicking on button
+clicked on button

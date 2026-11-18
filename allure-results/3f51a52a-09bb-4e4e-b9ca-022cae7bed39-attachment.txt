@@ -1,0 +1,9 @@
+URL: https://automationpracticehubapp.netlify.app/basic-elements
+true
+Value is filled in input field  Daryl
+Value is filled in input field  Predovic
+Value is filled in input field  Kirstin_Rosenbaum@yahoo.com
+Value is filled in input field  o8pDFHUs6pGNhi5
+Value is filled in input field  Tasty Bronze Pants
+clicking on button
+clicked on button

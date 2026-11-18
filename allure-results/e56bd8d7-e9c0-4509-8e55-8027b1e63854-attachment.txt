@@ -1,0 +1,2 @@
+URL Before: about:blank
+URL After: https://automationpracticehubapp.netlify.app/

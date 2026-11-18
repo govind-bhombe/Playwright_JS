@@ -1,0 +1,177 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: validationOftags.spec.ts >> validation of form filling
+- Location: tests\validationOftags.spec.ts:15:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "HomePage" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e9]:
+        - link "Basic Elements" [ref=e10] [cursor=pointer]:
+          - /url: /basic-elements
+        - link "Advanced Elements" [ref=e11] [cursor=pointer]:
+          - /url: /advanced
+        - link "E-Commerce" [ref=e12] [cursor=pointer]:
+          - /url: /ecommerce
+        - link "YouTube" [ref=e13] [cursor=pointer]:
+          - /url: https://www.youtube.com/@BcomWalaEngineer
+        - button "Logout" [ref=e17] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Basic Elements" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Practice automation testing with fundamental HTML form elements and interactions.
+      - generic [ref=e27]:
+        - heading "Text Inputs" [level=2] [ref=e28]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: First Name
+              - textbox "First Name" [ref=e35]:
+                - /placeholder: Enter your first name
+                - text: Dale
+            - generic [ref=e36]:
+              - generic [ref=e37]: Last Name
+              - textbox "Last Name" [active] [ref=e38]:
+                - /placeholder: Enter your last name
+                - text: Fritsch
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: Email
+              - textbox "Email" [ref=e42]:
+                - /placeholder: Enter your email
+            - generic [ref=e43]:
+              - generic [ref=e44]: Password
+              - textbox "Password" [ref=e45]:
+                - /placeholder: Enter your password
+          - generic [ref=e46]:
+            - generic [ref=e47]: Feedback
+            - textbox "Feedback" [ref=e48]:
+              - /placeholder: Enter your feedback here...
+          - button "Submit Details" [ref=e49] [cursor=pointer]: Submit
+      - generic [ref=e50]:
+        - heading "Buttons" [level=2] [ref=e51]
+        - generic [ref=e58]:
+          - button "Submit" [ref=e59] [cursor=pointer]
+          - button "Save" [ref=e60] [cursor=pointer]
+          - button "Reset" [ref=e61] [cursor=pointer]
+          - button "Disabled Button" [disabled] [ref=e62]
+      - generic [ref=e63]:
+        - heading "Radio Buttons" [level=2] [ref=e64]
+        - radiogroup "Gender selection" [ref=e67]:
+          - generic [ref=e68] [cursor=pointer]:
+            - radio "Male" [ref=e69]
+            - text: Male
+          - generic [ref=e70] [cursor=pointer]:
+            - radio "Female" [ref=e71]
+            - text: Female
+          - generic [ref=e72] [cursor=pointer]:
+            - radio "Other" [ref=e73]
+            - text: Other
+      - generic [ref=e74]:
+        - heading "Checkboxes" [level=2] [ref=e75]
+        - group "Checkbox options" [ref=e79]:
+          - generic [ref=e80] [cursor=pointer]:
+            - checkbox "Terms and Conditions" [ref=e81]
+            - text: Terms and Conditions
+          - generic [ref=e82] [cursor=pointer]:
+            - checkbox "Newsletter Subscription" [ref=e83]
+            - text: Newsletter Subscription
+          - generic [ref=e84] [cursor=pointer]:
+            - checkbox "Product Updates" [ref=e85]
+            - text: Product Updates
+      - generic [ref=e86]:
+        - heading "Dropdowns" [level=2] [ref=e87]
+        - generic [ref=e90]:
+          - generic [ref=e91]: Select Country
+          - combobox "Select Country" [ref=e92] [cursor=pointer]:
+            - option "-- Select a country --" [selected]
+            - option "India"
+            - option "USA"
+            - option "Canada"
+            - option "Germany"
+        - generic [ref=e93]:
+          - generic [ref=e94]: Select Skills
+          - combobox "Select Skills" [ref=e96] [cursor=pointer]:
+            - generic [ref=e97]: Select skills...
+        - generic [ref=e98]:
+          - generic [ref=e99]: Search Framework
+          - textbox "Search Framework" [ref=e101]:
+            - /placeholder: Type to search frameworks...
+      - generic [ref=e102]:
+        - heading "Date Controls" [level=2] [ref=e103]
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: Date Picker
+            - textbox "Date Picker" [ref=e109]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Time Picker
+            - textbox "Time Picker" [ref=e112]
+        - heading "Date Range" [level=3] [ref=e113]
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Start Date
+            - textbox "Start Date" [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]: End Date
+            - textbox "End Date" [ref=e120]
+      - generic [ref=e121]:
+        - heading "Validation Section" [level=2] [ref=e122]
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: Required Field
+            - textbox "Required Field" [ref=e129]:
+              - /placeholder: This field is required
+          - generic [ref=e130]:
+            - generic [ref=e131]: Email Validation
+            - textbox "Email Validation" [ref=e132]:
+              - /placeholder: Enter a valid email
+          - button "Validate" [ref=e133] [cursor=pointer]
+      - generic [ref=e134]:
+        - heading "Links" [level=2] [ref=e135]
+        - generic [ref=e139]:
+          - link "Normal Link" [ref=e140] [cursor=pointer]:
+            - /url: "#normal-link"
+          - link "External Link to Playwright Docs" [ref=e141] [cursor=pointer]:
+            - /url: https://playwright.dev
+            - text: External Link (Playwright Docs)
+      - generic [ref=e142]:
+        - heading "Navigation Tabs" [level=2] [ref=e143]
+        - tablist "Navigation Tabs" [ref=e147]:
+          - tab "Profile" [selected] [ref=e148] [cursor=pointer]
+          - tab "Settings" [ref=e149] [cursor=pointer]
+          - tab "Reports" [ref=e150] [cursor=pointer]
+        - tabpanel "Profile" [ref=e151]:
+          - paragraph [ref=e152]: User profile information will be displayed here.
+      - generic [ref=e153]:
+        - heading "Hover Area" [level=2] [ref=e154]
+        - generic "Hover Area" [ref=e158] [cursor=pointer]: Hover over me
+      - generic [ref=e159]:
+        - heading "Double Click Button" [level=2] [ref=e160]
+        - button "Double Click Me" [ref=e163] [cursor=pointer]
+      - generic [ref=e164]:
+        - heading "Right Click Area" [level=2] [ref=e165]
+        - generic "Right Click Area" [ref=e169]: Right click in this area
+  - contentinfo [ref=e170]:
+    - generic [ref=e171]:
+      - paragraph [ref=e172]: QA Automation Playground — Built for learning automation testing
+      - paragraph [ref=e173]: Made with for the QA Community
+      - paragraph [ref=e176]: Buy Coffee for Manish (@BcomWalaEngineer)
+```

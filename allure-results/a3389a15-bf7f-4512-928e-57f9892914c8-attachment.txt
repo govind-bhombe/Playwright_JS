@@ -1,0 +1,9 @@
+URL: https://automationpracticehubapp.netlify.app/basic-elements
+true
+Value is filled in input field  Terrell
+Value is filled in input field  Marvin
+Value is filled in input field  Russel.Crooks74@hotmail.com
+Value is filled in input field  B_PfUkduMU31sAC
+Value is filled in input field  Electronic Wooden Car
+clicking on button
+clicked on button
